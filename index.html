@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating the template</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Game of Thrones</h1>
+  <ul class="character-list-container">
+  </ul>
+
+  <script id="character-template" type="text/x-handlebars-template">
+		{{#each characters}}
+    <li class="character">
+			<img src="images/{{shortCode}}.webp">
+			<h2>{{name}}</h2>
+			<p>Actor: {{actor}}</p>
+			<p>House: {{house}}</p>
+      {{#if location}}
+      <p>Whereabouts:{{location}}</p>
+      {{else}}
+      <p>Whereabouts: unknown</p>
+      {{/if}}
+		</li>
+    {{/each}}
+	</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js" integrity="sha512-qwi9BHx0+QtW8krMaXObe76bUkPf8nRJOufgT5GS7C74s2sV+neksCVUhAWuMSXxZzKHiM3RuADPmWbhguWEIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
