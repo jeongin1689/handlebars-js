@@ -17,7 +17,9 @@
 			<img src="images/{{shortCode}}.webp">
 			<h2>{{name}}</h2>
 			<p>Actor: {{actor}}</p>
-			<p>House: {{house}}</p>
+			<p>House: {{house.name}}</p>
+      <p>Seat: {{house.seat}}</p>
+      <p>Words: {{house.words}}</p>
       {{#if location}}
       <p>Whereabouts:{{location}}</p>
       {{else}}
