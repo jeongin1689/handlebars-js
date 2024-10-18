@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating the template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
-<body>
-	<h1>Handlebar</h1>
-	<ul class="character-list-container"></ul>
+<body class="page-cast-details">
+	<h1>Game of Thrones | Cast Details</h1>
+	<section class="character-list-container"></section>
 
 
 	<script id="character-template" type="text/x-handlebars-template">
-		{{#each characters}}
-		<li class="character">
+		<div class="character">
 			<img src="images/{{shortCode}}.jpg">
 			{{> characterDetailsPartial}}
-			<a href="cast-details.html?id={{@index}}" class="button view-details">View details &#8674;</a>
-		</li>
-		{{/each}}
+			<a href="index.html" class="button view-details">Back</a>
+		</div>
+		<div class="character-bio-container">
+			<p><strong>Bio: </strong>{{bio}}</p>
+		</div>
 	</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.js" integrity="sha512-qwi9BHx0+QtW8krMaXObe76bUkPf8nRJOufgT5GS7C74s2sV+neksCVUhAWuMSXxZzKHiM3RuADPmWbhguWEIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src='js/script.js'></script>
-
 </body>
 </html>
