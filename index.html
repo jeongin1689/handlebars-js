@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Handlebar</h1>
+	<h1 class="title">
+    <img src="images/harrypotter_logo.png" alt="">
+  </h1>
 	<ul class="character-list-container"></ul>
 
 
 	<script id="character-template" type="text/x-handlebars-template">
 		{{#each characters}}
 		<li class="character">
-			<img src="images/{{shortCode}}.jpg">
+      <div class="img-box">
+        <img src="images/{{shortCode}}.webp">
+      </div>
 			{{> characterDetailsPartial}}
-			<a href="cast-details.html?id={{@index}}" class="button view-details">View details &#8674;</a>
+			<a href="cast-details.html?id={{@index}}" class="button view-details">더보기 &#8674;</a>
 		</li>
 		{{/each}}
 	</script>

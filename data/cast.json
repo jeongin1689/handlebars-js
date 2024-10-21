@@ -1,92 +1,147 @@
 {
-	"characters": [
-		{
-			"name": "Jon Snow",
-			"shortCode": "jon-snow",
-			"actor": "Kit Harrington",
-			"house": {
-				"name": "Stark",
-				"words": "Winter is coming",
-				"seat": "Winterfell",
-				"phone": 5551231234
-			},
-			"location": "The Wall",
-			"bio": "Jon is introduced in 1996's A Game of Thrones as the illegitimate son of Ned Stark, the honorable lord of Winterfell, an ancient fortress in the North of the fictional kingdom of Westeros. Knowing his prospects are limited by his status, Jon joins the Night's Watch, who guard the far northern borders from the wildlings who live beyond The Wall. As the rest of the Starks face grave adversity, Jon finds himself honor bound to remain with the Watch. In A Clash of Kings (1998), he joins a scouting party investigating the growing threat from the otherworldly Others beyond the Wall, and manages to infiltrate the wildlings. Jon learns of their plans to invade Westeros in A Storm of Swords (2000), and begins to fall in love with the fierce wildling woman Ygritte. He betrays them—and Ygritte—before they can attack, but the Night Watch's victory comes at a heavy price for Jon. Now the Lord Commander of the Watch, he appears briefly in 2005's A Feast for Crows. Jon returns as a prominent character in a A Dance with Dragons (2011), working to negotiate an alliance between the Night's Watch and the wildlings. The growing animosity he has attracted from among the Watch finally catches up with him, and he is forced to face the dire consequences."
-		},
-		{
-			"name": "Tyrion Lannister",
-			"shortCode": "tyrion",
-			"actor": "Peter Dinklage",
-			"house": {
-				"name": "Lannister",
-				"words": "Hear me roar",
-				"seat": "Casterly Rock"
-			},
-			"location": "Mereen",
-			"bio": "Tyrion Lannister (also referred to as 'the Imp' or 'the Halfman') is a fictional character in A Song of Ice and Fire, a series of fantasy novels by American author George R. R. Martin, and its television adaptation Game of Thrones. Based on an idea that came to Martin while writing the 1981 novel Windhaven,[2] Tyrion has been called one of the author's finest creations and most popular characters by The New York Times.[3][4] Martin has named the character as his favorite in the series. Introduced in 1996's A Game of Thrones, Tyrion is a dwarf and member of House Lannister, one of the wealthiest and most powerful families in the fictional kingdom of Westeros. He subsequently appeared in Martin's A Clash of Kings (1998) and A Storm of Swords (2000). Tyrion was one of a few prominent characters that were not included in 2005's A Feast for Crows, but returned in the next novel A Dance with Dragons (2011). The character will also appear in the forthcoming volume The Winds of Winter.[6][7] The popularity of the character led Martin and Bantam Books to publish The Wit & Wisdom of Tyrion Lannister, an illustrated collection of Tyrion quotes from the novels, in 2013."
-		},
-		{
-			"name": "Brienne of Tarth",
-			"shortCode": "brienne",
-			"actor": "Gwendoline Christie",
-			"featured": true,
-			"house": {
-				"name": "Tarth",
-				"seat": "Evenfall Hall",
-				"words": "In darkness we rise",
-				"phone": 5551231234
-			},
-			"bio": "Brienne is the only daughter of Lord Selwyn Tarth, Lord of Evenfall Hall, on the island of Tarth. House Tarth is a bannerman to House Baratheon, lords of the Stormlands. Her mother died when Brienne was a child. She had a single older brother, Galladon, who drowned when she was eight, and two younger sisters - both of whom died in infancy. Brienne as a child was under the tutelage of Septa Roelle who found fault in everything about Brienne and destroyed her self-esteem. She told Brienne that though a man would marry her, as she is heir to her father's land, he could never desire her. Her father tried to find Brienne a suitor to wed, however, this has not been easy, owing to Brienne's resistance and her ungainly appearance, but three unsuccessful betrothals have been made. The first was when she was seven and her fiance was ten, but he died of an illness. Next a betrothal was brokered by the lord of land poor house Connington to his young newly knighted heir Ronnet, but young Ser Ronnet broke the betrothal the first time he met her. Her father's last attempt was to betroth her at sixteen to Ser Humfrey Wagstaff, a middle aged friend of his, who was castellan of another house. He informed Brienne that she was expected to give up her training and become more feminine after their wedding. Brienne stated she would acquiesce, but only if he could beat her in combat. Their fight resulted in three broken bones and a broken betrothal."
-		},
-		{
-			"name": "Eddard Stark",
-			"shortCode": "ned-stark",
-			"actor": "Sean Bean",
-			"house": {
-				"name": "Stark",
-				"words": "Winter is coming",
-				"seat": "Winterfell",
-				"phone": 5551231234
-			},
-			"bio": "As established in A Game of Thrones, Eddard 'Ned' Stark is the second son of Rickard Stark, the Lord of Winterfell. Years before the events of the novel, the quiet and shy young Ned is fostered in the Vale by Jon Arryn. During this time Ned becomes close friends with Robert Baratheon, heir to the Stormlands and another ward of Arryn's. Robert is eventually betrothed to Ned's sister Lyanna, but before he can marry her, Crown Prince Rhaegar Targaryen (who is already married and has two young children) absconds with Lyanna. Ned's father and older brother Brandon go to King Aerys II Targaryen and demand that Lyanna be freed; the so-called the Mad Kind executes both Rickard and Brandon, convinced that the Starks seek to usurp him. Ned, Robert and Arryn then rise in revolt, securing the support of House Tully with Ned marrying Catelyn Tully. Ned leaves for war the next morning."
-		},
-		{
-			"name": "Sandor Clegane",
-			"shortCode": "the-hound",
-			"actor": "Rory McCann",
-			"location": "",
-			"house": {
-				"name": "Clegane",
-				"seat": "Clegane's Keep",
-				"phone": 5551231234
-			},
-			"bio": "In A Game of Thrones, he acts as bodyguard and servant to Prince Joffrey Baratheon, who calls him Dog. He is named a knight of Joffrey's Kingsguard in A Clash of Kings and is often assigned to guard Sansa, trying to protect her from Joffrey's abuse. He flees King's Landing during the Battle of the Blackwater, due to the widespread use of wildfire, a fictional substance similar to Greek fire."
-		},
-		{
-			"name": "Daenerys Targaryen",
-			"shortCode": "dany",
-			"actor": "Emilia Clarke",
-			"location": "Mereen",
-			"house": {
-				"name": "Targaryen",
-				"seat": "Dragonstone",
-				"words": "Fire and blood",
-				"phone": 5551231234
-			},
-			"bio": "Daenerys is the only daughter and youngest child of King Aerys II Targaryen, the 'Mad King', and his sister-wife, Rhaella. Her father died during the Sack of King's Landing, before she was even born. The usurper Robert Baratheon installed himself as king, having defeated Aerys in the conquest known as Robert's Rebellion. Her pregnant mother and brother Viserys, fled to the island of Dragonstone, the ancestral home of House Targaryen, to escape Robert. Daenerys's brother Rhaegar Targaryen was also killed in the war and the forces of House Lannister murdered his wife, Elia Martell, and children, Daenerys's niece and nephew, during the Sack of King's Landing."
-		},
-		{
-			"name": "King Joffrey Baratheon",
-			"shortCode": "joffrey",
-			"actor": "Jack Gleeson",
-			"house": {
-				"name": "Baratheon",
-				"seat": "The Red Keep",
-				"words": "Ours is the fury",
-				"phone": 5551231234
-			},
-			"location": "Kings Landing",
-			"bio": "Prince Joffrey is taken by his parents to Winterfell and is betrothed to Sansa Stark in order to create an alliance between House Baratheon and House Stark. At first, Joffrey is kind and polite to Sansa. However, he refuses to show sympathy with the family when Bran Stark falls from a tower; this makes Joffrey's uncle Tyrion have to physically punish him until he shows respect. While on the Kingsroad to King's Landing, Joffrey and Sansa come across Arya Stark practicing swordplay with a commoner Mycah. Joffrey accuses Mycah of assaulting a noble girl and makes a cut on his face with a sword. This causes Arya to hit Joffrey, allowing Mycah to escape. Joffrey then turns on Arya, making her direwolf Nymeria attack Joffrey, injuring him. Later, Joffrey lies about the attack, saying it was unprovoked and demands Nymeria to be killed, however, Sansa's direwolf Lady is killed instead."
-		}	
-	]
+  "characters": [
+    {
+      "name": "해리 포터",
+      "actor": "다니엘 래드클리프",
+      "shortCode": "harrypotter",
+      "engName": "Harry Potter",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "프리벳가 4번지",
+      "quote": "나는 장난꾸러기 맹세합니다."
+    },
+    {
+      "name": "헤르미온느 그레인저",
+      "actor": "엠마 왓슨",
+      "shortCode": "hermione",
+      "engName": "Hermione Jean Granger",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "런던 햄프스테드",
+      "quote": "레비오사가 아니라 레비오사르야!"
+    },
+    {
+      "name": "론 위즐리",
+      "actor": "루퍼트 그린트",
+      "shortCode": "ron",
+      "engName": "Ronald Bilius Weasley",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "오터리 세인트 캐치폴의 버로우",
+      "quote": "머글들에게 기죽지 마."
+    },
+    {
+      "name": "드레이코 말포이",
+      "actor": "톰 펠튼",
+      "shortCode": "malfoy",
+      "engName": "Draco Lucius Malfoy",
+      "house": {
+        "name": "슬리데린",
+        "motto": "야망, 교활함, 지도력, 그리고 자원.",
+        "founder": "살라자르 슬리데린"
+      },
+      "residence": "말포이 매너",
+      "quote": "우리 아버지가 이 일에 대해서 아실 거야."
+    },
+    {
+      "name": "알버스 덤블도어",
+      "actor": "마이클 갬본",
+      "shortCode": "dumbledore",
+      "engName": "Albus Dumbledore",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "호그와트",
+      "quote": "어두운 시기에도 행복은 발견될 수 있습니다. 단지 불을 켜는 것을 기억하기만 한다면."
+    },
+    {
+      "name": "세베루스 스네이프",
+      "actor": "앨런 릭맨",
+      "shortCode": "snape",
+      "engName": "Severus Snape",
+      "house": {
+        "name": "슬리데린",
+        "motto": "야망, 교활함, 지도력, 그리고 자원.",
+        "founder": "살라자르 슬리데린"
+      },
+      "residence": "스피너스 엔드",
+      "quote": "항상."
+    },
+    {
+      "name": "볼드모트",
+      "actor": "레이프 파인스",
+      "shortCode": "voldemort",
+      "engName": "Voldemort",
+      "house": {
+        "name": "슬리데린",
+        "motto": "야망, 교활함, 지도력, 그리고 자원.",
+        "founder": "살라자르 슬리데린"
+      },
+      "residence": "알려지지 않음",
+      "quote": "죽음은 아무것도 아니다!"
+    },
+    {
+      "name": "벨라트릭스 레스트랭",
+      "actor": "헬레나 본햄 카터",
+      "shortCode": "bellatrix",
+      "engName": "Bellatrix Lestrange",
+      "house": {
+        "name": "슬리데린",
+        "motto": "야망, 교활함, 지도력, 그리고 자원.",
+        "founder": "살라자르 슬리데린"
+      },
+      "residence": "말포이 매너",
+      "quote": "나는 주인을 위해 죽음도 받아들일 수 있어."
+    },
+    {
+      "name": "시리우스 블랙",
+      "actor": "게리 올드먼",
+      "shortCode": "sirius",
+      "engName": "Sirius Black",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "그림멀드 광장 12번지",
+      "quote": "우리는 자신이 선택한 가족을 소중히 해야 해."
+    },
+    {
+      "name": "네빌 롱바텀",
+      "actor": "매튜 루이스",
+      "shortCode": "neville",
+      "engName": "Neville Longbottom",
+      "house": {
+        "name": "그리핀도르",
+        "motto": "용기, 대담함, 기개, 그리고 기사도.",
+        "founder": "고드릭 그리핀도르"
+      },
+      "residence": "그랜덤 코티지",
+      "quote": "해리, 나는 그걸 하겠어. 난 스네이프가 한 일을 용서할 수 없어."
+    },
+    {
+      "name": "루나 러브굿",
+      "actor": "에반나 린치",
+      "shortCode": "luna",
+      "engName": "Luna Lovegood",
+      "house": {
+        "name": "래번클로",
+        "motto": "지혜, 학문, 지식, 창의성.",
+        "founder": "로웨나 래번클로"
+      },
+      "residence": "러브굿 저택",
+      "quote": "넌 미쳤다고 들릴지도 모르겠지만, 나는 괜찮아."
+    }
+  ]
 }

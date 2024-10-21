@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-cast-details">
-	<h1>Game of Thrones | Cast Details</h1>
-	<section class="character-list-container"></section>
+	<h1 class="title">
+		<img src="images/harrypotter_logo.png" alt="">
+	</h1>
+	<section class="character-list-container detail"></section>
 
 
 	<script id="character-template" type="text/x-handlebars-template">
 		<div class="character">
-			<img src="images/{{shortCode}}.jpg">
+      <div class="character_img_box">
+        <img src="images/{{shortCode}}.webp">
+      </div>
 			{{> characterDetailsPartial}}
 			<a href="index.html" class="button view-details">Back</a>
 		</div>
 		<div class="character-bio-container">
-			<p><strong>Bio: </strong>{{bio}}</p>
+      <span class="house">기숙사: {{#makeBold}}{{house.name}}{{/makeBold}}</span>
+      <span class="house_founder">기숙사 창시자: {{#makeBold}}{{house.founder}}{{/makeBold}}</span>
+      <span class="house_motto">기숙사 급훈: {{#makeBold}}{{house.motto}}{{/makeBold}}</span>
+      <p class="quote">{{quote}}</p>
 		</div>
 	</script>
 	
